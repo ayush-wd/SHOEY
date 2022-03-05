@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background: rgb(226, 226, 226);
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 8vh;
+  font-family: "Smooch Sans", sans-serif;
+  background-color: #222121;
+  min-width: 100%;
+
+  font-weight: 100;
+}
+
+.logo {
+  color: rgb(226, 226, 226);
+  width: 40px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -45px;
+}
+
+.nav-links {
+  display: flex;
+  margin-left: 230px;
+  margin-right: -90px;
+  margin-top: 20px;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: rgb(184, 182, 182);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: rgb(226, 226, 226);
+}
+
+.logo img {
+  margin-right: 5px;
+  width: 80px;
+  height: 45x;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+video {
+  object-fit: cover;
+}
+main .back-video {
+  background-size: cover;
+  width: 1550px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.intro {
+  font-family: "League Gothic", sans-serif;
+  font-size: 190px;
+  letter-spacing: 10px;
+  color: rgb(53, 48, 48);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.now {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.catalog {
+  font-family: "League Gothic", sans-serif;
+  font-size: 150px;
+  letter-spacing: 10px;
+  color: rgb(53, 48, 48);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  text-align: center;
+  color: rgb(75, 70, 70);
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about_img {
+  width: 200px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

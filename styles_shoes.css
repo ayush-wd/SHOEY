@@ -1,0 +1,171 @@
+.container {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 520px;
+  height: 350px;
+  background: #f5f5f5;
+  box-shadow: 5px 5px 15px rgba(#ba7e7e, 0.5);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 300;
+  color: rgb(53, 48, 48);
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 1.2em;
+  color: #4e4e4e;
+  margin-top: -5px;
+}
+
+h2 {
+  color: #4e4e4e;
+  margin-top: -5px;
+}
+
+img {
+  width: 290px;
+  margin-top: 47px;
+}
+
+.slideshow-buttons {
+  top: 70%;
+  display: none;
+}
+
+.one,
+.two,
+.three,
+.four {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #e0c9cb;
+}
+
+.one {
+  left: 22%;
+}
+.two {
+  left: 27%;
+}
+.three {
+  left: 32%;
+}
+.four {
+  left: 37%;
+}
+
+.product {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 10%;
+  left: 60%;
+}
+
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: #4e4e4e;
+  font-size: 0.7em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+button {
+  background: #535051;
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin: -1px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+button:hover {
+  background: #747373;
+  transition: all 0.4s ease-in-out;
+}
+.like:focus {
+  color: red;
+  border: none;
+}
+.add {
+  width: 67%;
+}
+
+.like {
+  width: 22%;
+}
+
+.sizes {
+  display: grid;
+  color: #524e4f;
+  grid-template-columns: repeat(auto-fill, 30px);
+  width: 60%;
+  grid-gap: 4px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.sizes:hover {
+  cursor: pointer;
+}
+
+.pick {
+  margin-top: 11px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.size {
+  padding: 9px;
+  border: 1px solid #969090;
+  font-size: 0.7em;
+  text-align: center;
+}
+.size:hover {
+  background: #8d8b8b;
+  color: #f5f5f5;
+  transition: all 0.4s ease-in-out;
+}
+
+.focus {
+  background: #8d8b8b;
+  color: #f5f5f5;
+}
+.product h1 {
+  margin-top: 100px;
+}
+.product h2,
+.product h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container .images img {
+  max-width: 290px;
+  max-height: 197px;
+  position: auto;
+}
+
+.container:hover {
+  transform: scale(1.08, 1.08);
+  transition: transform 0.8s;
+}
+
+.size:focus {
+  background-color: #8d8b8b;
+  color: #f5f5f5;
+}
